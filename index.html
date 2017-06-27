@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pomodoro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="row">
+            <div class="col-xs-3">
+
+            </div>
+            <div class="col-xs-6">
+                SESION TIME
+            </div>
+            <div class="col-xs-3">
+
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-xs-2">
+
+            </div>
+            <button class="col-xs-3 plus">+</button>
+            <div class="col-xs-2 pomodoro">
+                25
+                </div>
+            <button class="col-xs-3 minus">-</button>
+            <div class="col-xs-2">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-3">
+
+            </div>
+            <div class="col-xs-6">
+
+                BREAK TIME
+            </div>
+            <div class="col-xs-3">
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-2">
+
+            </div>
+            <button class="col-xs-3 pluss">+</button>
+            <div class="col-xs-2 pause">
+                1
+                </div>
+            <button class="col-xs-3 minuss">-</button>
+            <div class="col-xs-2">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+
+            </div>
+            <button class="col-xs-4 start">START</button>
+
+            <div class="col-xs-4">
+
+            </div>
+        </div>
+
+        <div class="canvas-wrap">
+            <canvas id="canvas" width="270" height="160">
+
+            </canvas>
+            <span id="procent"></span>
+        </div>
+        <audio id="alert">
+      <source src="http://soundbible.com/mp3/Store_Door_Chime-Mike_Koenig-570742973.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+
+</body>
+
+</html>
